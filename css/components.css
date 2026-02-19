@@ -282,9 +282,9 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 40px;
-  height: 40px;
-  color: var(--text-subtle);
+  width: 64px;
+  height: 64px;
+  color: var(--text-muted);
   transition: color var(--transition);
   animation: scrollBounce 2s ease-in-out infinite;
   z-index: 2;
@@ -292,7 +292,7 @@
 
 .scroll-indicator:hover { color: var(--cyan); }
 
-.scroll-indicator svg { width: 28px; height: 28px; }
+.scroll-indicator svg { width: 52px; height: 52px; }
 
 @keyframes scrollBounce {
   0%, 100% { transform: translateX(-50%) translateY(0); }
